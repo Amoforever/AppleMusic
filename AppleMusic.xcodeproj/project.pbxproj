@@ -16,6 +16,7 @@
 		CE343F6B2ADC0AD800A31403 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F6A2ADC0AD800A31403 /* Model.swift */; };
 		CE343F6D2ADC0B1F00A31403 /* ListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F6C2ADC0B1F00A31403 /* ListCellView.swift */; };
 		CE343F6F2ADC0B6200A31403 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F6E2ADC0B6200A31403 /* CheckBox.swift */; };
+		CE343F732ADC0C0E00A31403 /* BottomMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F722ADC0C0E00A31403 /* BottomMedia.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		CE343F6A2ADC0AD800A31403 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		CE343F6C2ADC0B1F00A31403 /* ListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCellView.swift; sourceTree = "<group>"; };
 		CE343F6E2ADC0B6200A31403 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		CE343F722ADC0C0E00A31403 /* BottomMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomMedia.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,8 @@
 		CE343F532ADC089700A31403 /* AppleMusic */ = {
 			isa = PBXGroup;
 			children = (
+				CE343F712ADC0BFD00A31403 /* BottomMedia */,
+				CE343F702ADC0B9D00A31403 /* ContentView */,
 				CE343F692ADC0AC000A31403 /* Model */,
 				CE343F662ADC0A7500A31403 /* ListView */,
 				CE343F632ADC0A2900A31403 /* LibraryView */,
@@ -112,6 +116,21 @@
 				CE343F6A2ADC0AD800A31403 /* Model.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		CE343F702ADC0B9D00A31403 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		CE343F712ADC0BFD00A31403 /* BottomMedia */ = {
+			isa = PBXGroup;
+			children = (
+				CE343F722ADC0C0E00A31403 /* BottomMedia.swift */,
+			);
+			path = BottomMedia;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE343F6B2ADC0AD800A31403 /* Model.swift in Sources */,
+				CE343F732ADC0C0E00A31403 /* BottomMedia.swift in Sources */,
 				CE343F682ADC0A8500A31403 /* ListView.swift in Sources */,
 				CE343F6D2ADC0B1F00A31403 /* ListCellView.swift in Sources */,
 				CE343F6F2ADC0B6200A31403 /* CheckBox.swift in Sources */,
