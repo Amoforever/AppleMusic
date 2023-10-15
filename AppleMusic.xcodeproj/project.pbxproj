@@ -12,6 +12,7 @@
 		CE343F592ADC089800A31403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE343F582ADC089800A31403 /* Assets.xcassets */; };
 		CE343F5C2ADC089800A31403 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE343F5B2ADC089800A31403 /* Preview Assets.xcassets */; };
 		CE343F652ADC0A4200A31403 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F642ADC0A4200A31403 /* LibraryView.swift */; };
+		CE343F682ADC0A8500A31403 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F672ADC0A8500A31403 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		CE343F582ADC089800A31403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE343F5B2ADC089800A31403 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE343F642ADC0A4200A31403 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		CE343F672ADC0A8500A31403 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		CE343F532ADC089700A31403 /* AppleMusic */ = {
 			isa = PBXGroup;
 			children = (
+				CE343F662ADC0A7500A31403 /* ListView */,
 				CE343F632ADC0A2900A31403 /* LibraryView */,
 				CE343F622ADC0A1500A31403 /* App */,
 				CE343F562ADC089700A31403 /* ContentView.swift */,
@@ -84,6 +87,14 @@
 				CE343F642ADC0A4200A31403 /* LibraryView.swift */,
 			);
 			path = LibraryView;
+			sourceTree = "<group>";
+		};
+		CE343F662ADC0A7500A31403 /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				CE343F672ADC0A8500A31403 /* ListView.swift */,
+			);
+			path = ListView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE343F682ADC0A8500A31403 /* ListView.swift in Sources */,
 				CE343F572ADC089700A31403 /* ContentView.swift in Sources */,
 				CE343F652ADC0A4200A31403 /* LibraryView.swift in Sources */,
 				CE343F552ADC089700A31403 /* AppleMusicApp.swift in Sources */,
