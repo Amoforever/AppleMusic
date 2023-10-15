@@ -15,6 +15,7 @@
 		CE343F682ADC0A8500A31403 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F672ADC0A8500A31403 /* ListView.swift */; };
 		CE343F6B2ADC0AD800A31403 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F6A2ADC0AD800A31403 /* Model.swift */; };
 		CE343F6D2ADC0B1F00A31403 /* ListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F6C2ADC0B1F00A31403 /* ListCellView.swift */; };
+		CE343F6F2ADC0B6200A31403 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F6E2ADC0B6200A31403 /* CheckBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		CE343F672ADC0A8500A31403 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		CE343F6A2ADC0AD800A31403 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		CE343F6C2ADC0B1F00A31403 /* ListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCellView.swift; sourceTree = "<group>"; };
+		CE343F6E2ADC0B6200A31403 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				CE343F672ADC0A8500A31403 /* ListView.swift */,
 				CE343F6C2ADC0B1F00A31403 /* ListCellView.swift */,
+				CE343F6E2ADC0B6200A31403 /* CheckBox.swift */,
 			);
 			path = ListView;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				CE343F6B2ADC0AD800A31403 /* Model.swift in Sources */,
 				CE343F682ADC0A8500A31403 /* ListView.swift in Sources */,
 				CE343F6D2ADC0B1F00A31403 /* ListCellView.swift in Sources */,
+				CE343F6F2ADC0B6200A31403 /* CheckBox.swift in Sources */,
 				CE343F572ADC089700A31403 /* ContentView.swift in Sources */,
 				CE343F652ADC0A4200A31403 /* LibraryView.swift in Sources */,
 				CE343F552ADC089700A31403 /* AppleMusicApp.swift in Sources */,
