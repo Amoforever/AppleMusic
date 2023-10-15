@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		CE343F552ADC089700A31403 /* AppleMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F542ADC089700A31403 /* AppleMusicApp.swift */; };
-		CE343F572ADC089700A31403 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F562ADC089700A31403 /* ContentView.swift */; };
 		CE343F592ADC089800A31403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE343F582ADC089800A31403 /* Assets.xcassets */; };
 		CE343F5C2ADC089800A31403 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE343F5B2ADC089800A31403 /* Preview Assets.xcassets */; };
+		CE343F652ADC0A4200A31403 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F642ADC0A4200A31403 /* LibraryView.swift */; };
+		CE343F682ADC0A8500A31403 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F672ADC0A8500A31403 /* ListView.swift */; };
+		CE343F6B2ADC0AD800A31403 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F6A2ADC0AD800A31403 /* Model.swift */; };
+		CE343F6D2ADC0B1F00A31403 /* ListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F6C2ADC0B1F00A31403 /* ListCellView.swift */; };
+		CE343F6F2ADC0B6200A31403 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F6E2ADC0B6200A31403 /* CheckBox.swift */; };
+		CE343F732ADC0C0E00A31403 /* BottomMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F722ADC0C0E00A31403 /* BottomMedia.swift */; };
+		CE343F752ADC0CAF00A31403 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F742ADC0CAF00A31403 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE343F512ADC089700A31403 /* AppleMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE343F542ADC089700A31403 /* AppleMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicApp.swift; sourceTree = "<group>"; };
-		CE343F562ADC089700A31403 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE343F582ADC089800A31403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE343F5B2ADC089800A31403 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE343F642ADC0A4200A31403 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		CE343F672ADC0A8500A31403 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		CE343F6A2ADC0AD800A31403 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CE343F6C2ADC0B1F00A31403 /* ListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCellView.swift; sourceTree = "<group>"; };
+		CE343F6E2ADC0B6200A31403 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		CE343F722ADC0C0E00A31403 /* BottomMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomMedia.swift; sourceTree = "<group>"; };
+		CE343F742ADC0CAF00A31403 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,12 @@
 		CE343F532ADC089700A31403 /* AppleMusic */ = {
 			isa = PBXGroup;
 			children = (
-				CE343F542ADC089700A31403 /* AppleMusicApp.swift */,
-				CE343F562ADC089700A31403 /* ContentView.swift */,
+				CE343F712ADC0BFD00A31403 /* BottomMedia */,
+				CE343F702ADC0B9D00A31403 /* ContentView */,
+				CE343F692ADC0AC000A31403 /* Model */,
+				CE343F662ADC0A7500A31403 /* ListView */,
+				CE343F632ADC0A2900A31403 /* LibraryView */,
+				CE343F622ADC0A1500A31403 /* App */,
 				CE343F582ADC089800A31403 /* Assets.xcassets */,
 				CE343F5A2ADC089800A31403 /* Preview Content */,
 			);
@@ -65,6 +81,56 @@
 				CE343F5B2ADC089800A31403 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE343F622ADC0A1500A31403 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CE343F542ADC089700A31403 /* AppleMusicApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CE343F632ADC0A2900A31403 /* LibraryView */ = {
+			isa = PBXGroup;
+			children = (
+				CE343F642ADC0A4200A31403 /* LibraryView.swift */,
+			);
+			path = LibraryView;
+			sourceTree = "<group>";
+		};
+		CE343F662ADC0A7500A31403 /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				CE343F672ADC0A8500A31403 /* ListView.swift */,
+				CE343F6C2ADC0B1F00A31403 /* ListCellView.swift */,
+				CE343F6E2ADC0B6200A31403 /* CheckBox.swift */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		CE343F692ADC0AC000A31403 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE343F6A2ADC0AD800A31403 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE343F702ADC0B9D00A31403 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				CE343F742ADC0CAF00A31403 /* ContentView.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		CE343F712ADC0BFD00A31403 /* BottomMedia */ = {
+			isa = PBXGroup;
+			children = (
+				CE343F722ADC0C0E00A31403 /* BottomMedia.swift */,
+			);
+			path = BottomMedia;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +203,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE343F572ADC089700A31403 /* ContentView.swift in Sources */,
+				CE343F6B2ADC0AD800A31403 /* Model.swift in Sources */,
+				CE343F732ADC0C0E00A31403 /* BottomMedia.swift in Sources */,
+				CE343F682ADC0A8500A31403 /* ListView.swift in Sources */,
+				CE343F6D2ADC0B1F00A31403 /* ListCellView.swift in Sources */,
+				CE343F6F2ADC0B6200A31403 /* CheckBox.swift in Sources */,
+				CE343F752ADC0CAF00A31403 /* ContentView.swift in Sources */,
+				CE343F652ADC0A4200A31403 /* LibraryView.swift in Sources */,
 				CE343F552ADC089700A31403 /* AppleMusicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
