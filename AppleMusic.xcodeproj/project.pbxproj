@@ -17,6 +17,7 @@
 		CE343F6F2ADC0B6200A31403 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F6E2ADC0B6200A31403 /* CheckBox.swift */; };
 		CE343F732ADC0C0E00A31403 /* BottomMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F722ADC0C0E00A31403 /* BottomMedia.swift */; };
 		CE343F752ADC0CAF00A31403 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F742ADC0CAF00A31403 /* ContentView.swift */; };
+		CE343F822AE6989600A31403 /* RadioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F812AE6989600A31403 /* RadioModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		CE343F6E2ADC0B6200A31403 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		CE343F722ADC0C0E00A31403 /* BottomMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomMedia.swift; sourceTree = "<group>"; };
 		CE343F742ADC0CAF00A31403 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE343F812AE6989600A31403 /* RadioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				CE343F6A2ADC0AD800A31403 /* Model.swift */,
+				CE343F812AE6989600A31403 /* RadioModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			files = (
 				CE343F6B2ADC0AD800A31403 /* Model.swift in Sources */,
 				CE343F732ADC0C0E00A31403 /* BottomMedia.swift in Sources */,
+				CE343F822AE6989600A31403 /* RadioModel.swift in Sources */,
 				CE343F682ADC0A8500A31403 /* ListView.swift in Sources */,
 				CE343F6D2ADC0B1F00A31403 /* ListCellView.swift in Sources */,
 				CE343F6F2ADC0B6200A31403 /* CheckBox.swift in Sources */,
