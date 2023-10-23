@@ -20,6 +20,7 @@
 		CE343F822AE6989600A31403 /* RadioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F812AE6989600A31403 /* RadioModel.swift */; };
 		CE343F852AE6990400A31403 /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F842AE6990400A31403 /* RadioView.swift */; };
 		CE343F872AE6992100A31403 /* FavoriteStationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F862AE6992100A31403 /* FavoriteStationView.swift */; };
+		CE343F892AE6999800A31403 /* StationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F882AE6999800A31403 /* StationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		CE343F812AE6989600A31403 /* RadioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioModel.swift; sourceTree = "<group>"; };
 		CE343F842AE6990400A31403 /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
 		CE343F862AE6992100A31403 /* FavoriteStationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteStationView.swift; sourceTree = "<group>"; };
+		CE343F882AE6999800A31403 /* StationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			children = (
 				CE343F842AE6990400A31403 /* RadioView.swift */,
 				CE343F862AE6992100A31403 /* FavoriteStationView.swift */,
+				CE343F882AE6999800A31403 /* StationView.swift */,
 			);
 			path = Radio;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE343F6B2ADC0AD800A31403 /* Model.swift in Sources */,
+				CE343F892AE6999800A31403 /* StationView.swift in Sources */,
 				CE343F732ADC0C0E00A31403 /* BottomMedia.swift in Sources */,
 				CE343F822AE6989600A31403 /* RadioModel.swift in Sources */,
 				CE343F682ADC0A8500A31403 /* ListView.swift in Sources */,
