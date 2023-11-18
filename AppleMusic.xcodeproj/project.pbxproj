@@ -17,6 +17,17 @@
 		CE343F6F2ADC0B6200A31403 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F6E2ADC0B6200A31403 /* CheckBox.swift */; };
 		CE343F732ADC0C0E00A31403 /* BottomMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F722ADC0C0E00A31403 /* BottomMedia.swift */; };
 		CE343F752ADC0CAF00A31403 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F742ADC0CAF00A31403 /* ContentView.swift */; };
+		CE343F822AE6989600A31403 /* RadioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F812AE6989600A31403 /* RadioModel.swift */; };
+		CE343F852AE6990400A31403 /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F842AE6990400A31403 /* RadioView.swift */; };
+		CE343F872AE6992100A31403 /* FavoriteStationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F862AE6992100A31403 /* FavoriteStationView.swift */; };
+		CE343F892AE6999800A31403 /* StationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F882AE6999800A31403 /* StationView.swift */; };
+		CE47A2B92B0963CE00F73F1A /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47A2B82B0963CE00F73F1A /* SearchModel.swift */; };
+		CE47A2BB2B09640D00F73F1A /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47A2BA2B09640D00F73F1A /* SearchViewModel.swift */; };
+		CE47A2BE2B09665800F73F1A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47A2BD2B09665800F73F1A /* SearchView.swift */; };
+		CE47A2C02B09669400F73F1A /* SearchCollectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47A2BF2B09669400F73F1A /* SearchCollectionsView.swift */; };
+		CE47A2C32B09676100F73F1A /* CollectionsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47A2C22B09676100F73F1A /* CollectionsDetailView.swift */; };
+		CE47A2C52B0967C300F73F1A /* FavoritePlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47A2C42B0967C300F73F1A /* FavoritePlaylistView.swift */; };
+		CE47A2C72B0967EB00F73F1A /* CollectionSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47A2C62B0967EB00F73F1A /* CollectionSectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +42,17 @@
 		CE343F6E2ADC0B6200A31403 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		CE343F722ADC0C0E00A31403 /* BottomMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomMedia.swift; sourceTree = "<group>"; };
 		CE343F742ADC0CAF00A31403 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE343F812AE6989600A31403 /* RadioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioModel.swift; sourceTree = "<group>"; };
+		CE343F842AE6990400A31403 /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
+		CE343F862AE6992100A31403 /* FavoriteStationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteStationView.swift; sourceTree = "<group>"; };
+		CE343F882AE6999800A31403 /* StationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationView.swift; sourceTree = "<group>"; };
+		CE47A2B82B0963CE00F73F1A /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		CE47A2BA2B09640D00F73F1A /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		CE47A2BD2B09665800F73F1A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		CE47A2BF2B09669400F73F1A /* SearchCollectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionsView.swift; sourceTree = "<group>"; };
+		CE47A2C22B09676100F73F1A /* CollectionsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsDetailView.swift; sourceTree = "<group>"; };
+		CE47A2C42B0967C300F73F1A /* FavoritePlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePlaylistView.swift; sourceTree = "<group>"; };
+		CE47A2C62B0967EB00F73F1A /* CollectionSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionSectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +85,9 @@
 		CE343F532ADC089700A31403 /* AppleMusic */ = {
 			isa = PBXGroup;
 			children = (
+				CE47A2C12B09671A00F73F1A /* CollectionsDetail */,
+				CE47A2BC2B09659E00F73F1A /* Search */,
+				CE343F832AE698DD00A31403 /* Radio */,
 				CE343F712ADC0BFD00A31403 /* BottomMedia */,
 				CE343F702ADC0B9D00A31403 /* ContentView */,
 				CE343F692ADC0AC000A31403 /* Model */,
@@ -113,6 +138,9 @@
 			isa = PBXGroup;
 			children = (
 				CE343F6A2ADC0AD800A31403 /* Model.swift */,
+				CE343F812AE6989600A31403 /* RadioModel.swift */,
+				CE47A2B82B0963CE00F73F1A /* SearchModel.swift */,
+				CE47A2BA2B09640D00F73F1A /* SearchViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -131,6 +159,35 @@
 				CE343F722ADC0C0E00A31403 /* BottomMedia.swift */,
 			);
 			path = BottomMedia;
+			sourceTree = "<group>";
+		};
+		CE343F832AE698DD00A31403 /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				CE343F842AE6990400A31403 /* RadioView.swift */,
+				CE343F862AE6992100A31403 /* FavoriteStationView.swift */,
+				CE343F882AE6999800A31403 /* StationView.swift */,
+			);
+			path = Radio;
+			sourceTree = "<group>";
+		};
+		CE47A2BC2B09659E00F73F1A /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				CE47A2BD2B09665800F73F1A /* SearchView.swift */,
+				CE47A2BF2B09669400F73F1A /* SearchCollectionsView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		CE47A2C12B09671A00F73F1A /* CollectionsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				CE47A2C22B09676100F73F1A /* CollectionsDetailView.swift */,
+				CE47A2C42B0967C300F73F1A /* FavoritePlaylistView.swift */,
+				CE47A2C62B0967EB00F73F1A /* CollectionSectionView.swift */,
+			);
+			path = CollectionsDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,14 +260,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE47A2B92B0963CE00F73F1A /* SearchModel.swift in Sources */,
 				CE343F6B2ADC0AD800A31403 /* Model.swift in Sources */,
+				CE47A2C72B0967EB00F73F1A /* CollectionSectionView.swift in Sources */,
+				CE343F892AE6999800A31403 /* StationView.swift in Sources */,
 				CE343F732ADC0C0E00A31403 /* BottomMedia.swift in Sources */,
+				CE343F822AE6989600A31403 /* RadioModel.swift in Sources */,
 				CE343F682ADC0A8500A31403 /* ListView.swift in Sources */,
+				CE47A2C02B09669400F73F1A /* SearchCollectionsView.swift in Sources */,
+				CE343F852AE6990400A31403 /* RadioView.swift in Sources */,
+				CE47A2C32B09676100F73F1A /* CollectionsDetailView.swift in Sources */,
 				CE343F6D2ADC0B1F00A31403 /* ListCellView.swift in Sources */,
+				CE47A2C52B0967C300F73F1A /* FavoritePlaylistView.swift in Sources */,
+				CE47A2BB2B09640D00F73F1A /* SearchViewModel.swift in Sources */,
 				CE343F6F2ADC0B6200A31403 /* CheckBox.swift in Sources */,
+				CE47A2BE2B09665800F73F1A /* SearchView.swift in Sources */,
 				CE343F752ADC0CAF00A31403 /* ContentView.swift in Sources */,
 				CE343F652ADC0A4200A31403 /* LibraryView.swift in Sources */,
 				CE343F552ADC089700A31403 /* AppleMusicApp.swift in Sources */,
+				CE343F872AE6992100A31403 /* FavoriteStationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
