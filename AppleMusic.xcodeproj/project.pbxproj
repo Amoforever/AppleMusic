@@ -15,7 +15,6 @@
 		CE343F6B2ADC0AD800A31403 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F6A2ADC0AD800A31403 /* Model.swift */; };
 		CE343F6D2ADC0B1F00A31403 /* ListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F6C2ADC0B1F00A31403 /* ListCellView.swift */; };
 		CE343F6F2ADC0B6200A31403 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F6E2ADC0B6200A31403 /* CheckBox.swift */; };
-		CE343F732ADC0C0E00A31403 /* BottomMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F722ADC0C0E00A31403 /* BottomMedia.swift */; };
 		CE343F752ADC0CAF00A31403 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F742ADC0CAF00A31403 /* ContentView.swift */; };
 		CE343F822AE6989600A31403 /* RadioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F812AE6989600A31403 /* RadioModel.swift */; };
 		CE343F852AE6990400A31403 /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE343F842AE6990400A31403 /* RadioView.swift */; };
@@ -28,6 +27,8 @@
 		CE47A2C32B09676100F73F1A /* CollectionsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47A2C22B09676100F73F1A /* CollectionsDetailView.swift */; };
 		CE47A2C52B0967C300F73F1A /* FavoritePlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47A2C42B0967C300F73F1A /* FavoritePlaylistView.swift */; };
 		CE47A2C72B0967EB00F73F1A /* CollectionSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47A2C62B0967EB00F73F1A /* CollectionSectionView.swift */; };
+		CE75FA282B476EA00068D6E5 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75FA272B476EA00068D6E5 /* PlayerView.swift */; };
+		CE75FA2A2B476ED70068D6E5 /* PlayerFullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75FA292B476ED70068D6E5 /* PlayerFullView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +41,6 @@
 		CE343F6A2ADC0AD800A31403 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		CE343F6C2ADC0B1F00A31403 /* ListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCellView.swift; sourceTree = "<group>"; };
 		CE343F6E2ADC0B6200A31403 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
-		CE343F722ADC0C0E00A31403 /* BottomMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomMedia.swift; sourceTree = "<group>"; };
 		CE343F742ADC0CAF00A31403 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE343F812AE6989600A31403 /* RadioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioModel.swift; sourceTree = "<group>"; };
 		CE343F842AE6990400A31403 /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
@@ -53,6 +53,8 @@
 		CE47A2C22B09676100F73F1A /* CollectionsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsDetailView.swift; sourceTree = "<group>"; };
 		CE47A2C42B0967C300F73F1A /* FavoritePlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePlaylistView.swift; sourceTree = "<group>"; };
 		CE47A2C62B0967EB00F73F1A /* CollectionSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionSectionView.swift; sourceTree = "<group>"; };
+		CE75FA272B476EA00068D6E5 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		CE75FA292B476ED70068D6E5 /* PlayerFullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerFullView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +87,10 @@
 		CE343F532ADC089700A31403 /* AppleMusic */ = {
 			isa = PBXGroup;
 			children = (
+				CE75FA262B476E830068D6E5 /* Player */,
 				CE47A2C12B09671A00F73F1A /* CollectionsDetail */,
 				CE47A2BC2B09659E00F73F1A /* Search */,
 				CE343F832AE698DD00A31403 /* Radio */,
-				CE343F712ADC0BFD00A31403 /* BottomMedia */,
 				CE343F702ADC0B9D00A31403 /* ContentView */,
 				CE343F692ADC0AC000A31403 /* Model */,
 				CE343F662ADC0A7500A31403 /* ListView */,
@@ -153,14 +155,6 @@
 			path = ContentView;
 			sourceTree = "<group>";
 		};
-		CE343F712ADC0BFD00A31403 /* BottomMedia */ = {
-			isa = PBXGroup;
-			children = (
-				CE343F722ADC0C0E00A31403 /* BottomMedia.swift */,
-			);
-			path = BottomMedia;
-			sourceTree = "<group>";
-		};
 		CE343F832AE698DD00A31403 /* Radio */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +182,15 @@
 				CE47A2C62B0967EB00F73F1A /* CollectionSectionView.swift */,
 			);
 			path = CollectionsDetail;
+			sourceTree = "<group>";
+		};
+		CE75FA262B476E830068D6E5 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				CE75FA272B476EA00068D6E5 /* PlayerView.swift */,
+				CE75FA292B476ED70068D6E5 /* PlayerFullView.swift */,
+			);
+			path = Player;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +264,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE47A2B92B0963CE00F73F1A /* SearchModel.swift in Sources */,
+				CE75FA2A2B476ED70068D6E5 /* PlayerFullView.swift in Sources */,
 				CE343F6B2ADC0AD800A31403 /* Model.swift in Sources */,
 				CE47A2C72B0967EB00F73F1A /* CollectionSectionView.swift in Sources */,
+				CE75FA282B476EA00068D6E5 /* PlayerView.swift in Sources */,
 				CE343F892AE6999800A31403 /* StationView.swift in Sources */,
-				CE343F732ADC0C0E00A31403 /* BottomMedia.swift in Sources */,
 				CE343F822AE6989600A31403 /* RadioModel.swift in Sources */,
 				CE343F682ADC0A8500A31403 /* ListView.swift in Sources */,
 				CE47A2C02B09669400F73F1A /* SearchCollectionsView.swift in Sources */,
